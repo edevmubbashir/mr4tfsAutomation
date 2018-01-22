@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,Firefox 57.0,Prereq Contains Login And Open Project,2018-01-16 12:04:27,2018-01-16 12:06:18,1m - 50.671s,FAILED
+,,,,,,
+Test Cases/Mr4TfsLogin,Firefox 57.0,Login Test Case,2018-01-16 12:04:27,2018-01-16 12:05:46,1m - 19.279s,FAILED
+openBrowser,Firefox 57.0,,2018-01-16 12:04:27,2018-01-16 12:04:46,19.040s,PASSED
+maximizeWindow,Firefox 57.0,,2018-01-16 12:04:46,2018-01-16 12:04:47,0.085s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-16 12:04:47,2018-01-16 12:05:14,26.969s,PASSED
+setText,Firefox 57.0,,2018-01-16 12:05:14,2018-01-16 12:05:14,0.242s,PASSED
+setText,Firefox 57.0,,2018-01-16 12:05:14,2018-01-16 12:05:14,0.072s,PASSED
+setText,Firefox 57.0,,2018-01-16 12:05:14,2018-01-16 12:05:14,0.072s,PASSED
+click,Firefox 57.0,Click Sign In Button,2018-01-16 12:05:14,2018-01-16 12:05:16,1.594s,PASSED
+Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)),Firefox 57.0,,2018-01-16 12:05:16,2018-01-16 12:05:46,30.949s,FAILED
+,,,,,,
+Test Cases/OpenProject,Firefox 57.0,Open Project In Mr4Tfs,2018-01-16 12:05:47,2018-01-16 12:06:17,30.927s,FAILED
+click,Firefox 57.0,,2018-01-16 12:05:47,2018-01-16 12:06:17,30.827s,FAILED

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="46" tests="0" failures="2" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="0" failures="2" errors="0" time="46" timestamp="2018-01-15 18:15:13" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181512"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181512\\execution0.log, H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181512\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="da95f5d2-78f5-4438-b5c4-1ad671d51425"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mr4TfsLogin" classname="Test Cases/Mr4TfsLogin" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})"/>
+         <system-out><![CDATA[2018-01-15 18:15:13 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:15:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-15 18:15:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-15 18:15:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-15 18:15:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-15 18:15:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 18:15:30 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 18:15:30 - [TEST_STEP][PASSED] - setText: Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 18:15:30 - [MESSAGE][PASSED] - Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 18:15:30 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 18:15:31 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 18:15:31 - [TEST_STEP][PASSED] - setText: Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 18:15:31 - [MESSAGE][PASSED] - Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 18:15:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 18:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 18:15:49 - [TEST_STEP][FAILED] - Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)): Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:15:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-15 18:15:59 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-15 18:15:13 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OpenProject" classname="Test Cases/OpenProject" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})"/>
+         <system-out><![CDATA[2018-01-15 18:15:59 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:16:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:16:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-15 18:16:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-15 18:15:59 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-15 18:15:13 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+      <system-err><![CDATA[2018-01-15 18:15:13 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5649/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: da95f5d2-78f5-4438-b5c4-1ad671d51425
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+   </testsuite>
+</testsuites>

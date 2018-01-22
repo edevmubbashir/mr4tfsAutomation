@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="1" failures="0" errors="0" time="32" timestamp="2018-01-15 17:56:56" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_175655"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_175655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="06a5649c-c1e1-4dda-b9fb-bb9623b66726"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mr4TfsLogin" classname="Test Cases/Mr4TfsLogin" status="PASSED">
+         <system-out><![CDATA[2018-01-15 17:56:56 - [TEST_CASE][PASSED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin
+
+2018-01-15 17:56:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-15 17:57:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-15 17:57:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-15 17:57:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-15 17:57:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 17:57:26 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 17:57:26 - [TEST_STEP][PASSED] - setText: Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 17:57:26 - [MESSAGE][PASSED] - Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 17:57:26 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 17:57:26 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 17:57:26 - [TEST_STEP][PASSED] - setText: Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 17:57:26 - [MESSAGE][PASSED] - Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 17:57:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 17:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 17:57:28 - [TEST_STEP][PASSED] - Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)): Text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is: 'Browse'
+
+2018-01-15 17:57:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is: 'Browse'
+
+2018-01-15 17:57:28 - [TEST_STEP][PASSED] - Statement - assert isBrowseButtonShowing == "Browse": null
+
+2018-01-15 17:57:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Sign out' is clicked on
+
+2018-01-15 17:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Sign out' is clicked on
+
+2018-01-15 17:57:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-15 17:57:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-15 17:56:56 - [TEST_SUITE][PASSED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

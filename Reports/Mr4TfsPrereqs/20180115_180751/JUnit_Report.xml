@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="38" tests="1" failures="1" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="1" failures="1" errors="0" time="38" timestamp="2018-01-15 18:07:51" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_180751"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_180751\\execution0.log"/>
+         <property name="attachments" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_180751\\1516021710471.png"/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="71462aa9-5682-4da7-8730-2941818c8018"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mr4TfsLogin" classname="Test Cases/Mr4TfsLogin" status="PASSED">
+         <system-out><![CDATA[2018-01-15 18:07:52 - [TEST_CASE][PASSED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin
+
+2018-01-15 18:07:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-15 18:07:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-15 18:07:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-15 18:07:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-15 18:07:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 18:08:24 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-15 18:08:24 - [TEST_STEP][PASSED] - setText: Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 18:08:24 - [MESSAGE][PASSED] - Text 'http://attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-15 18:08:24 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 18:08:25 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-15 18:08:25 - [TEST_STEP][PASSED] - setText: Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 18:08:25 - [MESSAGE][PASSED] - Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-15 18:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-15 18:08:26 - [TEST_STEP][PASSED] - Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)): Text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is: 'Browse'
+
+2018-01-15 18:08:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is: 'Browse'
+
+2018-01-15 18:08:26 - [TEST_STEP][PASSED] - Statement - assert isBrowseButtonShowing == "Browse": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OpenProject" classname="Test Cases/OpenProject" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)"/>
+         <system-out><![CDATA[2018-01-15 18:08:26 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)
+
+2018-01-15 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-15 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-15 18:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-15 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-15 18:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Modern Requirements4TFS 2018/span_27thNovDev' is clicked on
+
+2018-01-15 18:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Modern Requirements4TFS 2018/span_27thNovDev' is clicked on
+
+2018-01-15 18:08:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)
+
+2018-01-15 18:08:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)
+[[ATTACHMENT|H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_180751\\1516021710471.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-15 18:08:26 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-15 18:07:51 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)]]></system-out>
+      <system-err><![CDATA[2018-01-15 18:07:51 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' (Root cause: org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14572, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71462aa9-5682-4da7-8730-2941818c8018)]]></system-err>
+   </testsuite>
+</testsuites>

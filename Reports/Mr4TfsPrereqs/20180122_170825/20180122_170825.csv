@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,Firefox 57.0,Prereq Contains Login And Open Project,2018-01-22 17:08:26,2018-01-22 17:08:44,17.635s,PASSED
+,,,,,,
+Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone,Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:39,13.012s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.007s,PASSED
+"Statement - tfsServerUrl = ""M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL""",Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.001s,PASSED
+"Statement - tfsUserName = ""M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress""",Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.001s,PASSED
+"Statement - tfsPassword = ""M4Tfs-StandAlone/LoginPage/mr4tfs-Password""",Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.000s,PASSED
+"Statement - signInBtn = ""M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn""",Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.000s,PASSED
+"Statement - browseProjectButton = ""M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects""",Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:26,0.000s,PASSED
+openBrowser,Firefox 57.0,,2018-01-22 17:08:26,2018-01-22 17:08:31,4.361s,PASSED
+maximizeWindow,Firefox 57.0,,2018-01-22 17:08:31,2018-01-22 17:08:31,0.051s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-22 17:08:31,2018-01-22 17:08:38,6.691s,PASSED
+setText,Firefox 57.0,,2018-01-22 17:08:38,2018-01-22 17:08:38,0.108s,PASSED
+setText,Firefox 57.0,,2018-01-22 17:08:38,2018-01-22 17:08:38,0.049s,PASSED
+setText,Firefox 57.0,,2018-01-22 17:08:38,2018-01-22 17:08:38,0.042s,PASSED
+click,Firefox 57.0,,2018-01-22 17:08:38,2018-01-22 17:08:39,1.517s,PASSED
+waitForElementVisible,Firefox 57.0,,2018-01-22 17:08:39,2018-01-22 17:08:39,0.038s,PASSED
+Statement - browseProjectButtonText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(browseProjectButton)),Firefox 57.0,,2018-01-22 17:08:39,2018-01-22 17:08:39,0.021s,PASSED
+"Statement - assert browseProjectButtonText == ""Browse""",Firefox 57.0,,2018-01-22 17:08:39,2018-01-22 17:08:39,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 57.0,,2018-01-22 17:08:39,2018-01-22 17:08:39,0.001s,PASSED
+,,,,,,
+Test Cases/StandAlone-Prereqs/OpenProject,Firefox 57.0,"Define Collection Name, And Project Name.",2018-01-22 17:08:39,2018-01-22 17:08:43,4.065s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 57.0,,2018-01-22 17:08:39,2018-01-22 17:08:39,0.001s,PASSED
+"Statement - browseButton = ""M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects""",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.000s,PASSED
+"Statement - navigateButton = ""Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate""",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.000s,PASSED
+click,Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.220s,PASSED
+"Statement - collectionList = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy(""css"", CollectionValue(GetCollectionName()))",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.000s,PASSED
+"Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(CollectionName, 1)",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.003s,PASSED
+"Statement - return ((#treeviewProjects > ul > li[title="" + collectionName) + ""] span)",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.008s,PASSED
+"Statement - className = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(collectionList, ""class"", STOP_ON_FAILURE)",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:40,0.525s,PASSED
+"Statement - If (className.contains(""k-i-expand""))",Firefox 57.0,,2018-01-22 17:08:40,2018-01-22 17:08:41,0.234s,PASSED
+"Statement - projectList = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy(""css"", ProjectValue(GetProjectName()))",Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:41,0.001s,PASSED
+"Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(Project, 1)",Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:41,0.005s,PASSED
+"Statement - return ((li[title="" + projectName) + ""])",Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:41,0.001s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(projectList) == false),Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:41,0.543s,PASSED
+Statement - Else,Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:41,0.231s,PASSED
+waitForElementClickable,Firefox 57.0,,2018-01-22 17:08:41,2018-01-22 17:08:42,0.549s,PASSED
+click,Firefox 57.0,,2018-01-22 17:08:42,2018-01-22 17:08:42,0.247s,PASSED
+"Statement - dashboardProjectName = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy(""css"", ""span.title.project-name"")",Firefox 57.0,,2018-01-22 17:08:42,2018-01-22 17:08:42,0.002s,PASSED
+waitForElementVisible,Firefox 57.0,,2018-01-22 17:08:42,2018-01-22 17:08:43,1.386s,PASSED
+Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dashboardProjectName) == GetProjectName(),Firefox 57.0,,2018-01-22 17:08:43,2018-01-22 17:08:43,0.015s,PASSED
+"Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(Project, 1)",Firefox 57.0,,2018-01-22 17:08:43,2018-01-22 17:08:43,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 57.0,,2018-01-22 17:08:43,2018-01-22 17:08:43,0.001s,PASSED

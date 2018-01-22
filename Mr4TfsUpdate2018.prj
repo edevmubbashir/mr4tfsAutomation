@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Automation Project For Modern Requirements 4 TFS , using Katalon Studio.</description>
+   <name>Mr4TfsUpdate2018</name>
+   <tag></tag>
+   <UUID>bf4a7050-bfde-408f-81c7-1bec5fe1238f</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="110" tests="0" failures="2" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="0" failures="2" errors="0" time="110" timestamp="2018-01-16 12:04:27" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426\\execution0.log"/>
+         <property name="attachments" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426\\1516086346647.png, H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426\\1516086377776.png"/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="b051d228-15a6-4797-8177-a9a68efc8e30"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mr4TfsLogin" classname="Test Cases/Mr4TfsLogin" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)"/>
+         <system-out><![CDATA[2018-01-16 12:04:27 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+
+2018-01-16 12:04:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-16 12:04:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-16 12:04:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-16 12:04:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-16 12:04:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-16 12:05:14 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-16 12:05:14 - [TEST_STEP][PASSED] - setText: Text 'attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-16 12:05:14 - [MESSAGE][PASSED] - Text 'attfs2017:8080/tfs' is set on object 'Object Repository/Page_Sign In/input_TFSServerURL'
+
+2018-01-16 12:05:14 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-16 12:05:14 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/Page_Sign In/input_EmailAddress'
+
+2018-01-16 12:05:14 - [TEST_STEP][PASSED] - setText: Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-16 12:05:14 - [MESSAGE][PASSED] - Text 'f12345' is set on object 'Object Repository/Page_Sign In/input_Password'
+
+2018-01-16 12:05:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-16 12:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-16 12:05:16 - [TEST_STEP][FAILED] - Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)): Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+
+2018-01-16 12:05:46 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+[[ATTACHMENT|H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426\\1516086346647.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-16 12:04:27 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OpenProject" classname="Test Cases/OpenProject" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)"/>
+         <system-out><![CDATA[2018-01-16 12:05:47 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+
+2018-01-16 12:05:47 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+
+2018-01-16 12:06:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)
+[[ATTACHMENT|H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180116_120426\\1516086377776.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-16 12:05:47 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-16 12:04:27 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-16 12:04:27 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to get text of object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

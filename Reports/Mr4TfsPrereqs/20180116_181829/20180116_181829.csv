@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,,Prereq Contains Login And Open Project,2018-01-16 18:18:31,2018-01-16 18:18:49,18.152s,FAILED
+,,,,,,
+Test Cases/Mr4TfsLogin,,Login Test Case,2018-01-16 18:18:31,2018-01-16 18:18:49,17.669s,FAILED
+openBrowser,,,2018-01-16 18:18:31,2018-01-16 18:18:49,17.351s,FAILED
+,,,,,,
+Test Cases/OpenProject,,Open Project In Mr4Tfs,2018-01-16 18:18:49,2018-01-16 18:18:49,0.125s,FAILED
+click,,,2018-01-16 18:18:49,2018-01-16 18:18:49,0.034s,FAILED

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,Firefox 57.0,Prereq Contains Login And Open Project,2018-01-15 17:43:21,2018-01-15 17:44:04,43.488s,FAILED
+,,,,,,
+Test Cases/Mr4TfsLogin,Firefox 57.0,Login Test Case,2018-01-15 17:43:21,2018-01-15 17:44:04,43.101s,FAILED
+openBrowser,Firefox 57.0,,2018-01-15 17:43:21,2018-01-15 17:43:26,4.829s,PASSED
+maximizeWindow,Firefox 57.0,,2018-01-15 17:43:26,2018-01-15 17:43:26,0.101s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-15 17:43:26,2018-01-15 17:43:52,26.176s,PASSED
+setText,Firefox 57.0,,2018-01-15 17:43:52,2018-01-15 17:43:52,0.123s,PASSED
+setText,Firefox 57.0,,2018-01-15 17:43:52,2018-01-15 17:43:52,0.063s,PASSED
+setText,Firefox 57.0,,2018-01-15 17:43:52,2018-01-15 17:43:52,0.055s,PASSED
+click,Firefox 57.0,Click Sign In Button,2018-01-15 17:43:52,2018-01-15 17:43:58,5.252s,PASSED
+Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)),Firefox 57.0,,2018-01-15 17:43:58,2018-01-15 17:44:04,6.267s,PASSED
+"Statement - assert isBrowseButtonShowing == ""Browser""",Firefox 57.0,,2018-01-15 17:44:04,2018-01-15 17:44:04,0.005s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,IE 11,Prereq Contains Login And Open Project,2018-01-15 18:14:07,2018-01-15 18:15:02,55.116s,FAILED
+,,,,,,
+Test Cases/Mr4TfsLogin,IE 11,Login Test Case,2018-01-15 18:14:07,2018-01-15 18:14:18,11.537s,FAILED
+openBrowser,IE 11,,2018-01-15 18:14:07,2018-01-15 18:14:18,10.678s,PASSED
+maximizeWindow,IE 11,,2018-01-15 18:14:18,2018-01-15 18:14:18,0.026s,PASSED
+navigateToUrl,IE 11,,2018-01-15 18:14:18,2018-01-15 18:14:18,0.573s,FAILED
+,,,,,,
+Test Cases/OpenProject,IE 11,Open Project In Mr4Tfs,2018-01-15 18:14:18,2018-01-15 18:15:01,42.789s,FAILED
+click,IE 11,,2018-01-15 18:14:18,2018-01-15 18:15:01,42.659s,FAILED

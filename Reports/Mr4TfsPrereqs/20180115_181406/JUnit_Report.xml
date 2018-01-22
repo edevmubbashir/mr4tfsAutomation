@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="55" tests="0" failures="2" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="0" failures="2" errors="0" time="55" timestamp="2018-01-15 18:14:07" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181406"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181406\\execution0.log, H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181406\\IEDriverServer.log"/>
+         <property name="attachments" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181406\\1516022058653.png"/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="8d86605f-960b-44ab-81a1-2d9161cd73a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mr4TfsLogin" classname="Test Cases/Mr4TfsLogin" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)"/>
+         <system-out><![CDATA[2018-01-15 18:14:07 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)
+
+2018-01-15 18:14:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-15 18:14:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-15 18:14:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-15 18:14:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-15 18:14:18 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)
+
+2018-01-15 18:14:18 - [MESSAGE][FAILED] - Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)
+[[ATTACHMENT|H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180115_181406\\1516022058653.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-15 18:14:07 - [TEST_CASE][FAILED] - Test Cases/Mr4TfsLogin: Test Cases/Mr4TfsLogin FAILED because (of) Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OpenProject" classname="Test Cases/OpenProject" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})"/>
+         <system-out><![CDATA[2018-01-15 18:14:18 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:14:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-15 18:15:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-15 18:15:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-15 18:14:18 - [TEST_CASE][FAILED] - Test Cases/OpenProject: Test Cases/OpenProject FAILED because (of) Unable to click on object 'Object Repository/Page_Modern Requirements4TFS 2018/a_Browse' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-15 18:14:07 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)]]></system-out>
+      <system-err><![CDATA[2018-01-15 18:14:07 - [TEST_SUITE][FAILED] - Mr4TfsPrereqs: Test Cases/Mr4TfsLogin FAILED because (of) Unable to navigate to 'http://ghous:8028' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://ghous:8028. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31764/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8d86605f-960b-44ab-81a1-2d9161cd73a4)]]></system-err>
+   </testsuite>
+</testsuites>

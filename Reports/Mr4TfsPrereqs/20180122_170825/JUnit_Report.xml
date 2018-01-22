@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="2" failures="0" errors="0" time="17" timestamp="2018-01-22 17:08:26" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180122_170825"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\Reports\\Mr4TfsPrereqs\\20180122_170825\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="32846777-4511-4319-b59b-888825e6382b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone" classname="Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone" status="PASSED">
+         <system-out><![CDATA[2018-01-22 17:08:26 - [TEST_CASE][PASSED] - Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'AutomationPrereqs.sampleBeforeTestCase(...)' completed.
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'AutomationPrereqs.sampleBeforeTestCase(...)' completed.
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - tfsServerUrl = "M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL": null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - tfsUserName = "M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress": null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - tfsPassword = "M4Tfs-StandAlone/LoginPage/mr4tfs-Password": null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - signInBtn = "M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn": null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - Statement - browseProjectButton = "M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects": null
+
+2018-01-22 17:08:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-22 17:08:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-22 17:08:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-22 17:08:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-22 17:08:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-22 17:08:38 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-22 17:08:38 - [TEST_STEP][PASSED] - setText: Text 'http://attfs2015:8080/tfs' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
+
+2018-01-22 17:08:38 - [MESSAGE][PASSED] - Text 'http://attfs2015:8080/tfs' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
+
+2018-01-22 17:08:38 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
+
+2018-01-22 17:08:38 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
+
+2018-01-22 17:08:38 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
+
+2018-01-22 17:08:38 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
+
+2018-01-22 17:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn' is clicked on
+
+2018-01-22 17:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn' is clicked on
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is visible
+
+2018-01-22 17:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is visible
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - browseProjectButtonText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(browseProjectButton)): Text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is: 'Browse'
+
+2018-01-22 17:08:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is: 'Browse'
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - assert browseProjectButtonText == "Browse": null
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StandAlone-Prereqs/OpenProject" classname="Test Cases/StandAlone-Prereqs/OpenProject" status="PASSED">
+         <system-out><![CDATA[2018-01-22 17:08:39 - [TEST_CASE][PASSED] - Test Cases/StandAlone-Prereqs/OpenProject: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'AutomationPrereqs.sampleBeforeTestCase(...)' completed.
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-01-22 17:08:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'AutomationPrereqs.sampleBeforeTestCase(...)' completed.
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - browseButton = "M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects": null
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - navigateButton = "Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate": null
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is clicked on
+
+2018-01-22 17:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' is clicked on
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - collectionList = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy("css", CollectionValue(GetCollectionName())): null
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(CollectionName, 1): Test data is internal data, reading internal data
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - return ((#treeviewProjects > ul > li[title=" + collectionName) + "] span): edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:40 - [MESSAGE][PASSED] - edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - className = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(collectionList, "class", STOP_ON_FAILURE): Attribute 'class' of object 'TheObjectName' is: 'k-icon k-i-expand'
+
+2018-01-22 17:08:40 - [MESSAGE][PASSED] - Attribute 'class' of object 'TheObjectName' is: 'k-icon k-i-expand'
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - Statement - If (className.contains("k-i-expand")): Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:40 - [TEST_STEP][PASSED] - click: Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:41 - [MESSAGE][PASSED] - Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - Statement - projectList = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy("css", ProjectValue(GetProjectName())): null
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(Project, 1): Test data is internal data, reading internal data
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - Statement - return ((li[title=" + projectName) + "]): edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:41 - [MESSAGE][PASSED] - edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(projectList) == false): Object 'TheObjectName' is visible
+
+2018-01-22 17:08:41 - [MESSAGE][PASSED] - Object 'TheObjectName' is visible
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - Statement - Else: Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - click: Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:41 - [MESSAGE][PASSED] - Object: 'TheObjectName' is clicked on
+
+2018-01-22 17:08:41 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate' is clickable
+
+2018-01-22 17:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate' is clickable
+
+2018-01-22 17:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate' is clicked on
+
+2018-01-22 17:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate' is clicked on
+
+2018-01-22 17:08:42 - [TEST_STEP][PASSED] - Statement - dashboardProjectName = CustomKeywords.edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy("css", "span.title.project-name"): edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:42 - [MESSAGE][PASSED] - edev.automatekatlon.com.GetCustomTestObject.getCustomTestObjectBy is PASSED
+
+2018-01-22 17:08:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'TheObjectName' is visible
+
+2018-01-22 17:08:43 - [MESSAGE][PASSED] - Object 'TheObjectName' is visible
+
+2018-01-22 17:08:43 - [TEST_STEP][PASSED] - Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dashboardProjectName) == GetProjectName(): Text of object 'TheObjectName' is: 'Project28thDec2015'
+
+2018-01-22 17:08:43 - [MESSAGE][PASSED] - Text of object 'TheObjectName' is: 'Project28thDec2015'
+
+2018-01-22 17:08:43 - [TEST_STEP][PASSED] - Statement - return com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configurations).getValue(Project, 1): Test data is internal data, reading internal data
+
+2018-01-22 17:08:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.
+
+2018-01-22 17:08:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-01-22 17:08:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-22 17:08:26 - [TEST_SUITE][PASSED] - Mr4TfsPrereqs: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'AutomationPrereqs.sampleAfterTestCase(...)' completed.]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

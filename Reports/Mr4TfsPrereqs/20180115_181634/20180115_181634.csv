@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4TfsPrereqs,IE 11,Prereq Contains Login And Open Project,2018-01-15 18:16:35,2018-01-15 18:17:15,39.893s,FAILED
+,,,,,,
+Test Cases/Mr4TfsLogin,IE 11,Login Test Case,2018-01-15 18:16:35,2018-01-15 18:17:01,26.105s,PASSED
+openBrowser,IE 11,,2018-01-15 18:16:36,2018-01-15 18:16:38,2.621s,PASSED
+maximizeWindow,IE 11,,2018-01-15 18:16:38,2018-01-15 18:16:38,0.024s,PASSED
+navigateToUrl,IE 11,,2018-01-15 18:16:38,2018-01-15 18:16:47,9.061s,PASSED
+setText,IE 11,,2018-01-15 18:16:47,2018-01-15 18:16:48,0.475s,PASSED
+setText,IE 11,,2018-01-15 18:16:48,2018-01-15 18:16:48,0.359s,PASSED
+setText,IE 11,,2018-01-15 18:16:48,2018-01-15 18:16:48,0.361s,PASSED
+click,IE 11,Click Sign In Button,2018-01-15 18:16:48,2018-01-15 18:17:01,12.759s,PASSED
+Statement - isBrowseButtonShowing = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Modern Requirements4TFS 2018/a_Browse)),IE 11,,2018-01-15 18:17:01,2018-01-15 18:17:01,0.187s,PASSED
+"Statement - assert isBrowseButtonShowing == ""Browse""",IE 11,,2018-01-15 18:17:01,2018-01-15 18:17:01,0.001s,PASSED
+,,,,,,
+Test Cases/OpenProject,IE 11,Open Project In Mr4Tfs,2018-01-15 18:17:01,2018-01-15 18:17:14,12.995s,FAILED
+click,IE 11,,2018-01-15 18:17:02,2018-01-15 18:17:03,1.105s,PASSED
+click,IE 11,,2018-01-15 18:17:03,2018-01-15 18:17:14,11.712s,FAILED
