@@ -36,10 +36,4 @@ public class GetCustomTestObject {
 		myNewObject.addProperty(selectorType, ConditionType.EQUALS , selector);
 		return myNewObject;
 	}
-	
-	@Keyword
-	def getNewKeyWord()
-	{
-		
-	}
 }
