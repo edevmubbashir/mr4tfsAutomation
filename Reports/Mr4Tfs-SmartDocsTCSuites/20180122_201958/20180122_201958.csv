@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mr4Tfs-SmartDocsTCSuites,Firefox 57.0,Prereq Contains Login And Open Project,2018-01-22 20:19:59,2018-01-22 20:20:36,37.323s,INCOMPLETE
+,,,,,,
+Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone,Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:20:36,36.869s,FAILED
+"Statement - tfsServerUrl = ""M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL""",Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:19:59,0.001s,PASSED
+"Statement - tfsUserName = ""M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress""",Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:19:59,0.001s,PASSED
+"Statement - tfsPassword = ""M4Tfs-StandAlone/LoginPage/mr4tfs-Password""",Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:19:59,0.000s,PASSED
+"Statement - signInBtn = ""M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn""",Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:19:59,0.001s,PASSED
+"Statement - browseProjectButton = ""M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects""",Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:19:59,0.001s,PASSED
+openBrowser,Firefox 57.0,,2018-01-22 20:19:59,2018-01-22 20:20:03,4.401s,PASSED
+maximizeWindow,Firefox 57.0,,2018-01-22 20:20:03,2018-01-22 20:20:04,0.061s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-22 20:20:04,2018-01-22 20:20:09,5.187s,PASSED
+setText,Firefox 57.0,,2018-01-22 20:20:09,2018-01-22 20:20:09,0.096s,PASSED
+setText,Firefox 57.0,,2018-01-22 20:20:09,2018-01-22 20:20:09,0.071s,PASSED
+setText,Firefox 57.0,,2018-01-22 20:20:09,2018-01-22 20:20:09,0.071s,PASSED
+click,Firefox 57.0,,2018-01-22 20:20:09,2018-01-22 20:20:13,4.467s,PASSED
+waitForElementVisible,Firefox 57.0,,2018-01-22 20:20:13,2018-01-22 20:20:34,20.641s,PASSED
+Statement - browseProjectButtonText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(browseProjectButton)),Firefox 57.0,,2018-01-22 20:20:34,2018-01-22 20:20:36,1.639s,FAILED
+,,,,,,
+Test Cases/StandAlone-Prereqs/OpenProject,Firefox 57.0,"Define Collection Name, And Project Name.",2018-01-22 20:20:36,2018-01-22 20:20:36,0.107s,FAILED
+"Statement - browseButton = ""M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects""",Firefox 57.0,,2018-01-22 20:20:36,2018-01-22 20:20:36,0.000s,PASSED
+"Statement - navigateButton = ""Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate""",Firefox 57.0,,2018-01-22 20:20:36,2018-01-22 20:20:36,0.000s,PASSED
+click,Firefox 57.0,,2018-01-22 20:20:36,2018-01-22 20:20:36,0.011s,FAILED
+,,,,,,
+Test Cases/StandAlone-Prereqs/OpenSmartDocModule,Firefox 57.0,,2018-01-22 20:20:36,2018-01-22 20:20:36,0.071s,FAILED
+click,Firefox 57.0,,2018-01-22 20:20:36,2018-01-22 20:20:36,0.010s,FAILED

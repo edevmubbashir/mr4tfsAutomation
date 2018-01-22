@@ -4,7 +4,7 @@
    <name>Mr4Tfs-SmartDocsTCSuites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-22T20:01:16</lastRun>
+   <lastRun>2018-01-22T20:19:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
