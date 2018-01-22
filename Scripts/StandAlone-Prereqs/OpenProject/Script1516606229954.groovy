@@ -45,7 +45,6 @@ if(WebUI.verifyElementVisible(projectList) == false)
 {
 	WebUI.scrollToElement(projectList, 10)
 	WebUI.click(projectList)
-
 }
 else
 {

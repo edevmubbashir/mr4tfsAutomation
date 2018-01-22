@@ -4,7 +4,7 @@
    <name>Mr4TfsPrereqs</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-22T17:08:25</lastRun>
+   <lastRun>2018-01-22T19:52:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -22,5 +22,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StandAlone-Prereqs/OpenProject</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e817111-94eb-462e-bbdf-5be1e1deb42b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StandAlone-Prereqs/OpenSmartDocModule</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
