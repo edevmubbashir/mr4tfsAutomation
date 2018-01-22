@@ -21,3 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule'))
+
+WebUI.waitForElementVisible(findTestObject('M4Tfs-StandAlone/SmartDocs/smartDocs-FolderExplorer'), 10)
+
+not_run: WebUI.delay(10)
+

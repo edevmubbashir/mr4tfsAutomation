@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mr4TfsPrereqs" time="42" tests="0" failures="3" errors="0">
+   <testsuite name="Mr4TfsPrereqs" tests="0" failures="3" errors="0" time="42" timestamp="2018-01-22 20:01:17" hostname="mubbashir.shakil - Mubbashir2.edevtech.com" id="Test Suites/Mr4TfsPrereqs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\.git\\mr4tfsAutomation\\Reports\\Mr4TfsPrereqs\\20180122_200116"/>
+         <property name="logFiles" value="H:\\KatalonProjects\\Mr4TfsUpdate2018\\.git\\mr4tfsAutomation\\Reports\\Mr4TfsPrereqs\\20180122_200116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mubbashir.shakil - Mubbashir2.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.0.0.43"/>
+         <property name="sessionId" value="22fa785b-e2f7-4451-b0eb-421d1e431d72"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone" classname="Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})"/>
+         <system-out><![CDATA[2018-01-22 20:01:17 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone: Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone FAILED because (of) Unable to get text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - Statement - tfsServerUrl = "M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL": null
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - Statement - tfsUserName = "M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress": null
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - Statement - tfsPassword = "M4Tfs-StandAlone/LoginPage/mr4tfs-Password": null
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - Statement - signInBtn = "M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn": null
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - Statement - browseProjectButton = "M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects": null
+
+2018-01-22 20:01:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-22 20:01:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-22 20:01:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-22 20:01:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-22 20:01:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghous:8028' successfully
+
+2018-01-22 20:01:27 - [MESSAGE][PASSED] - Navigate to 'http://ghous:8028' successfully
+
+2018-01-22 20:01:27 - [TEST_STEP][PASSED] - setText: Text 'http://attfs2015:8080/tfs' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
+
+2018-01-22 20:01:27 - [MESSAGE][PASSED] - Text 'http://attfs2015:8080/tfs' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
+
+2018-01-22 20:01:27 - [TEST_STEP][PASSED] - setText: Text 'fahad' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
+
+2018-01-22 20:01:27 - [MESSAGE][PASSED] - Text 'fahad' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
+
+2018-01-22 20:01:27 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
+
+2018-01-22 20:01:27 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
+
+2018-01-22 20:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn' is clicked on
+
+2018-01-22 20:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn' is clicked on
+
+2018-01-22 20:01:32 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found
+
+2018-01-22 20:01:53 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]' not found
+
+2018-01-22 20:01:53 - [TEST_STEP][FAILED] - Statement - browseProjectButtonText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(browseProjectButton)): Unable to get text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-22 20:02:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-22 20:02:00 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-22 20:01:17 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone: Test Cases/StandAlone-Prereqs/Mr4TfsLogin-StandAlone FAILED because (of) Unable to get text of object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StandAlone-Prereqs/OpenProject" classname="Test Cases/StandAlone-Prereqs/OpenProject" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})"/>
+         <system-out><![CDATA[2018-01-22 20:02:00 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/OpenProject: Test Cases/StandAlone-Prereqs/OpenProject FAILED because (of) Unable to click on object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-22 20:02:00 - [TEST_STEP][PASSED] - Statement - browseButton = "M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects": null
+
+2018-01-22 20:02:00 - [TEST_STEP][PASSED] - Statement - navigateButton = "Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-ProjectNavigate": null
+
+2018-01-22 20:02:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})
+
+2018-01-22 20:02:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-22 20:02:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-22 20:02:00 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/OpenProject: Test Cases/StandAlone-Prereqs/OpenProject FAILED because (of) Unable to click on object 'Object Repository/M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'javascript:openBrowseDialog();']) = count(//*[@href = 'javascript:openBrowseDialog();'])][count(. | //*[@title = 'Browse teams and projects']) = count(//*[@title = 'Browse teams and projects'])][count(. | //*[text() = 'Browse']) = count(//*[text() = 'Browse'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StandAlone-Prereqs/OpenSmartDocModule" classname="Test Cases/StandAlone-Prereqs/OpenSmartDocModule" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//span[count(. | //*[text() = 'Create Smart Docs']) = count(//*[text() = 'Create Smart Docs'])]})"/>
+         <system-out><![CDATA[2018-01-22 20:02:00 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/OpenSmartDocModule: Test Cases/StandAlone-Prereqs/OpenSmartDocModule FAILED because (of) Unable to click on object 'Object Repository/M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//span[count(. | //*[text() = 'Create Smart Docs']) = count(//*[text() = 'Create Smart Docs'])]})
+
+2018-01-22 20:02:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//span[count(. | //*[text() = 'Create Smart Docs']) = count(//*[text() = 'Create Smart Docs'])]})
+
+2018-01-22 20:02:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-22 20:02:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//span[count(. | //*[text() = 'Create Smart Docs']) = count(//*[text() = 'Create Smart Docs'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-22 20:02:00 - [TEST_CASE][FAILED] - Test Cases/StandAlone-Prereqs/OpenSmartDocModule: Test Cases/StandAlone-Prereqs/OpenSmartDocModule FAILED because (of) Unable to click on object 'Object Repository/M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUBBASHIR2', ip: '10.0.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10340, moz:profile: C:\Users\mubbashir.shakil\A..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22fa785b-e2f7-4451-b0eb-421d1e431d72
+*** Element info: {Using=xpath, value=//span[count(. | //*[text() = 'Create Smart Docs']) = count(//*[text() = 'Create Smart Docs'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-22 20:01:17 - [TEST_SUITE][INCOMPLETE] - Mr4TfsPrereqs: null]]></system-out>
+      <system-err><![CDATA[2018-01-22 20:01:17 - [TEST_SUITE][INCOMPLETE] - Mr4TfsPrereqs: null]]></system-err>
+   </testsuite>
+</testsuites>

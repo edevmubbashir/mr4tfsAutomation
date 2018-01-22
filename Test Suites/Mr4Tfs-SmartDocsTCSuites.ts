@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Prereq Contains Login And Open Project</description>
-   <name>Mr4TfsPrereqs</name>
+   <name>Mr4Tfs-SmartDocsTCSuites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-22T19:52:10</lastRun>
+   <lastRun>2018-01-22T20:01:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
