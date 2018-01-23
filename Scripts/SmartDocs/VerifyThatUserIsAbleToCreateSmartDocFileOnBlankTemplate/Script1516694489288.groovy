@@ -36,3 +36,4 @@ WebUI.setText(findTestObject('M4Tfs-StandAlone/SmartDocs/input_smdNewWItemTxtBox
 
 WebUI.sendKeys(findTestObject('M4Tfs-StandAlone/SmartDocs/input_smdNewWItemTxtBox'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(1)
