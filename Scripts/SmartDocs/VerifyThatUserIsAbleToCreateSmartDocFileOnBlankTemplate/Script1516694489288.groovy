@@ -20,7 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('M4Tfs-StandAlone/Dashboard/m4tfs-Smart DocsModule'))
+WebUI.click(findTestObject('M4Tfs-StandAlone/SmartDocs/span_New'))
 
-not_run: WebUI.delay(10)
+WebUI.click(findTestObject('M4Tfs-StandAlone/SmartDocs/span_Smart Docs'))
+
+WebUI.setText(findTestObject('M4Tfs-StandAlone/SmartDocs/input_ig-newfile-textbox-smd-n'), 'HelloWorld-1')
+
+WebUI.click(findTestObject('M4Tfs-StandAlone/SmartDocs/input_ig-newfile-ok-button-smd'))
+
+WebUI.click(findTestObject('M4Tfs-StandAlone/SmartDocs/div_smd-add-wi-icon'))
+
+WebUI.click(findTestObject('M4Tfs-StandAlone/SmartDocs/span_Feature'))
+
+WebUI.setText(findTestObject('M4Tfs-StandAlone/SmartDocs/input_smdNewWItemTxtBox'), 'hssd')
+
+WebUI.sendKeys(findTestObject('M4Tfs-StandAlone/SmartDocs/input_smdNewWItemTxtBox'), Keys.chord(Keys.ENTER))
 

@@ -4,7 +4,7 @@
    <name>Mr4Tfs-SmartDocsTCSuites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-22T20:19:58</lastRun>
+   <lastRun>2018-01-23T15:08:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -28,5 +28,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StandAlone-Prereqs/OpenSmartDocModule</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a3d615c-33cb-4e49-96fb-25fabe70da59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SmartDocs/VerifyThatUserIsAbleToCreateSmartDocFileOnBlankTemplate</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

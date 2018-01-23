@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>smartDocs-FolderExplorer</name>
+   <name>div_smd-add-wi-icon</name>
    <tag></tag>
-   <elementGuidId>0eb5aa20-b418-4ce9-add2-42bf0c3c3b80</elementGuidId>
+   <elementGuidId>9f86387b-215c-4db4-87b7-8601ebcbdfcb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,24 +14,38 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wiid</name>
+      <type>Main</type>
+      <value>28683</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-witype</name>
+      <type>Main</type>
+      <value>Epic</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>smd-ff-treeview-container</value>
+      <value>Add child WorkItem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ig-horizontal-separator-dark</value>
+      <value>smd-add-wi-icon</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;smd-ff-treeview-container&quot;)</value>
+      <value>id(&quot;smd-main-workitemgrid_active_cell&quot;)/div[@class=&quot;smd-add-wi-icon&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

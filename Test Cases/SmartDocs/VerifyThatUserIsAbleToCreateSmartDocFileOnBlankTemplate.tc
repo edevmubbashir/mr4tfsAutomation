@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Id : 18681,
+Test Case Developed By : Mubbashir Shakil,
+Test Case Created On : 23/Jan/2018</description>
+   <name>VerifyThatUserIsAbleToCreateSmartDocFileOnBlankTemplate</name>
+   <tag>Bat</tag>
+   <comment></comment>
+   <testCaseGuid>e3b6dd43-3f52-42e2-bd91-1a8ee9c1b88d</testCaseGuid>
+</TestCaseEntity>
