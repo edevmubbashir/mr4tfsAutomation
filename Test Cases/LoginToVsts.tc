@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>From</description>
+   <name>LoginToVsts</name>
+   <tag>Bat</tag>
+   <comment></comment>
+   <testCaseGuid>cd790712-b1ed-43fb-9c06-5ddff9f6dd97</testCaseGuid>
+</TestCaseEntity>

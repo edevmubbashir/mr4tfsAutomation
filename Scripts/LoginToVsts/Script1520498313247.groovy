@@ -20,37 +20,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//	Test Object Declaration Open	//
-tfsServerUrl = 'M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
-
-tfsUserName = 'M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
-
-tfsPassword = 'M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
-
-signInBtn = 'M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn'
-
-browseProjectButton = 'M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects'
-//	Test Object Declration Closed	//
-
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://app.vssps.visualstudio.com/_signin?realm=easyedsaad.visualstudio.com&reply_to=https%3A%2F%2Feasyedsaad.visualstudio.com%2F&redirect=1&context=eyJodCI6MiwiaGlkIjoiYjgzYmU3ODEtZGYwMS00MDcyLWFhZmYtYTNkZWMzZWI4ZTA1IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2')
 
-WebUI.navigateToUrl(findTestData('Configurations').getValue('ServiceUrl', 1))
+WebUI.setText(findTestObject('LoginVSTS/Page_Sign in to your Microsoft acco/input_loginfmt'), 'syed.saad@edevtech.com')
 
-WebUI.setText(findTestObject(tfsServerUrl), findTestData('Configurations').getValue('ServerName', 1))
+WebUI.click(findTestObject('LoginVSTS/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
-WebUI.setText(findTestObject(tfsUserName), findTestData('Configurations').getValue('UserName', 1))
+WebUI.setText(findTestObject('LoginVSTS/Page_Sign in to your Microsoft acco/input_passwd'), 'inte!!GREAT')
 
-WebUI.setText(findTestObject(tfsPassword), findTestData('Configurations').getValue('Password', 1))
+WebUI.click(findTestObject('LoginVSTS/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
-WebUI.click(findTestObject(signInBtn))
+WebUI.click(findTestObject('LoginVSTS/Page_Sign in to your account/div_row'))
 
-WebUI.waitForElementVisible(findTestObject(browseProjectButton), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LoginVSTS/Page_Sign in to your account/input_idSIButton9'))
 
-browseProjectButtonText = WebUI.getText(findTestObject(browseProjectButton))
-isBrowserButtonDisplayed = WebUI.verifyElementPresent(findTestObject(browseProjectButton), 5)
+assert WebUI.getText(findTestObject('Object Repository/LoginVSTS/a_mi_28_ms.vss-tfs-web.collect')) == 'Projects'
 
-assert isBrowserButtonDisplayed == true;
-assert browseProjectButtonText == 'Browse'
+WebUI.closeBrowser()
+
+WebUI.delay(0)
 

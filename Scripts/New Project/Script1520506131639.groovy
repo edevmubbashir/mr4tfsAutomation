@@ -18,39 +18,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-//	Test Object Declaration Open	//
-tfsServerUrl = 'M4Tfs-StandAlone/LoginPage/mr4tfs-TFSServerURL'
-
-tfsUserName = 'M4Tfs-StandAlone/LoginPage/mr4tfs-EmailAddress'
-
-tfsPassword = 'M4Tfs-StandAlone/LoginPage/mr4tfs-Password'
-
-signInBtn = 'M4Tfs-StandAlone/LoginPage/mr4tfs-SignInBtn'
-
-browseProjectButton = 'M4Tfs-StandAlone/RecentProjectPage/mr4tfs-_BrowseProjects'
-//	Test Object Declration Closed	//
-
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(findTestData('Configurations').getValue('ServiceUrl', 1))
-
-WebUI.setText(findTestObject(tfsServerUrl), findTestData('Configurations').getValue('ServerName', 1))
-
-WebUI.setText(findTestObject(tfsUserName), findTestData('Configurations').getValue('UserName', 1))
-
-WebUI.setText(findTestObject(tfsPassword), findTestData('Configurations').getValue('Password', 1))
-
-WebUI.click(findTestObject(signInBtn))
-
-WebUI.waitForElementVisible(findTestObject(browseProjectButton), 20, FailureHandling.STOP_ON_FAILURE)
-
-browseProjectButtonText = WebUI.getText(findTestObject(browseProjectButton))
-isBrowserButtonDisplayed = WebUI.verifyElementPresent(findTestObject(browseProjectButton), 5)
-
-assert isBrowserButtonDisplayed == true;
-assert browseProjectButtonText == 'Browse'
 
